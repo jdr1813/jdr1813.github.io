@@ -170,6 +170,11 @@ textarea {
   font-size: larger;
 }
 
+#project-title {
+  padding-bottom: 2em;
+  font-size: 1.5em;
+}
+
 #see-code {
   margin-top: 2em;
   width: 100%;
