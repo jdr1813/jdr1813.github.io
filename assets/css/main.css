@@ -207,12 +207,12 @@ textarea {
   display: inline-block;
 }
 
-.stretch {
+/* .stretch {
   width: 100%;
   display: inline-block;
   font-size: 0;
   line-height: 0;
-}
+} */
 
 #project-text {
   text-align: center;
