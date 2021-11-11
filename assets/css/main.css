@@ -167,11 +167,13 @@ textarea {
 
 #full-portfolio {
   margin-top: 3em;
+  font-size: larger;
 }
 
 #see-code {
   margin-top: 2em;
-  display: inline-block;
+  width: 100%;
+  font-size: larger;
 }
 
 #bug-text {
@@ -188,6 +190,14 @@ textarea {
 
 #technologies {
   font-size: larger;
+}
+
+#tech-images {
+  padding-left: 1em;
+}
+
+#project-text {
+  text-align: justify;
 }
 
 #learning {
@@ -2585,7 +2595,7 @@ input[type="button"],
     border-color 0.2s ease-in-out;
   background-color: transparent;
   border-radius: 0.35em;
-  border: solid 3px #efefef;
+  border: solid 2px #888686;
   color: #787878 !important;
   cursor: pointer;
   display: inline-block;
@@ -2598,14 +2608,17 @@ input[type="button"],
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  transition: all 0.2s;
 }
 
 input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover,
 .button:hover {
-  border-color: #49bf9d;
-  color: #49bf9d !important;
+  border-color: #4a6274;
+  color: #e2725a !important;
+  box-shadow: 0 0.5em 0.5em -0.4em;
+  transform: translatey(-0.25em);
 }
 
 input[type="submit"]:active,
