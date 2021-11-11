@@ -171,7 +171,7 @@ textarea {
 }
 
 #project-title {
-  padding-bottom: 2em;
+  padding-bottom: 1em;
   font-size: 1.5em;
 }
 
@@ -180,6 +180,7 @@ textarea {
   width: 100%;
   font-size: larger;
 }
+
 #my-name {
   transition: 0.3s;
 }
@@ -190,10 +191,12 @@ textarea {
 
 #technologies {
   font-size: larger;
+  margin: auto;
 }
 
 #tech-images {
-  padding-left: 1em;
+  display: contents;
+  margin: auto;
 }
 
 #project-text {
@@ -2713,10 +2716,12 @@ input[type="button"]:disabled,
 
 .work-item {
   margin: 0 0 2em 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .work-item .image {
-  margin: 0 0 1.5em 0;
+  margin: 0 0 1em 0;
 }
 
 .work-item h3 {
@@ -2728,6 +2733,10 @@ input[type="button"]:disabled,
   font-size: 0.8em;
   line-height: 1.5em;
   margin: 0;
+}
+
+.work-item div {
+  margin-top: auto;
 }
 
 /* Header */
